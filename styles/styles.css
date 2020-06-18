@@ -16,14 +16,12 @@ body header {
 
 body header img {
     margin: 0 8.7% 0 16.5%;
-    opacity: 100%;
 }
 
 body header a#about {
     margin-right: 2.1%;
     text-decoration: none;
     color: black;
-    
 }
 
 body header a#recipes {
@@ -98,5 +96,116 @@ body .rodape {
     margin-top: 4.5%;
     text-align: center;
     padding: 1.5% 30%;
+}
+
+/*=== CARDS classes.html ===*/
+
+body .moreAccessCard-classes {
+    max-width: 1020px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+body .moreAccessCard-classes .card .card-image-container img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    margin-top: 10.7%;
+    cursor: pointer;
+}
+
+body .moreAccessCard-classes .card .card-name {
+    margin-top: 3.8%;
+    font-size: 18px;
+    color: black;
+    height: 21px;
+}
+
+body .moreAccessCard-classes .card .author {
+    margin-top: 0.5%;
+    font-size: 14px;
+    color: #777777;
+}
+
+/*=== CARDS-MODAL classes.html*/
+
+body .modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+body .modal .modal-background {
+    background-color: white;
+    margin: 20vh auto;
+    width: 37.1%;
+    height: 40.8%;
+    border-radius: 16px;
+    position: relative;
+}
+
+body .modal .modal-background .card-image-container img {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    margin: 2.7% 9.6%;
+    border-radius: 15px;
+}
+
+body .modal .modal-background .card-name p {
+    position: absolute;
+    top: 70%;
+    left: 29.5%;
+    font-weight: bold;
+}
+
+body .modal .modal-background .author p {
+    position: absolute;
+    top: 77.5%;
+    left: 37.5%;
+    font-size: medium;
+    color: #777777;
+}
+
+body .modal .modal-background .close p {
+    position: absolute;
+    top: 90.5%;
+    left: 40.5%;
+    font-size: 12px;
+    color: #777777;
+    cursor: pointer;
+}
+
+/*=== CARDS-MODAL-ACTIVED classes.html*/
+
+body .modal.actived {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*=== about.html ===*/
+
+body .about-foodfy h3{
+    margin: 4% 71.9% 1.8% 16.4%
+}
+
+body .about-foodfy p {
+    margin: 1.8% 16.4%;
+}
+
+body .the-beginning h4,
+.our-recipes h4{
+    margin: 0 71.9% 1.8% 16.4%
+}
+
+body .the-beginning p,
+.our-recipes p {
+    margin: 1.8% 16.4%;
 }
 
